@@ -11,7 +11,7 @@ from django.contrib.staticfiles import finders
 #Chapter 5
 from rango.models import Page, Category
 import populate_rango
-import rango.test_utils as test_utils
+import rango.tests.test_utils as test_utils
 
 #Chapter 6
 from rango.decorators import chapter6

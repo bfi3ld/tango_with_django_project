@@ -6,24 +6,15 @@ from django.core.urlresolvers import reverse
 import os, socket
 
 #Chapter 4
-from django.contrib.staticfiles import finders
 
 #Chapter 5
-from rango.models import Page, Category
-import populate_rango
-import rango.test_utils as test_utils
+import rango.tests.test_utils as test_utils
 
 #Chapter 6
-from rango.decorators import chapter6
 
 #Chapter 7
-from rango.decorators import chapter7
-from rango.forms import CategoryForm, PageForm
 
 #Chapter 8
-from django.template import loader
-from django.conf import settings
-from rango.decorators import chapter8
 import os.path
 
 #Chapter 9

@@ -2,34 +2,25 @@
 from django.test import TestCase
 from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 from django.core.urlresolvers import reverse
-import os
 
 #Chapter 4
 from django.contrib.staticfiles import finders
 
 #Chapter 5
 from rango.models import Page, Category
-import populate_rango
-import rango.test_utils as test_utils
 
 #Chapter 6
 from rango.decorators import chapter6
 
 #Chapter 7
 from rango.decorators import chapter7
-from rango.forms import CategoryForm, PageForm
 
 #Chapter 8
-from django.template import loader
-from django.conf import settings
 from rango.decorators import chapter8
 import os.path
 
 #Chapter 9
 from rango.models import User, UserProfile
-from rango.forms import UserForm, UserProfileForm
-from django.core.files.uploadedfile import SimpleUploadedFile
-from django.core.files.storage import default_storage
 from rango.decorators import chapter9
 
 #Chapter 10
