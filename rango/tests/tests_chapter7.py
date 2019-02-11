@@ -3,15 +3,18 @@ from django.test import TestCase
 from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 from selenium import webdriver
 from django.core.urlresolvers import reverse
-import socket
+import os, socket
 
 #Chapter 4
+from django.contrib.staticfiles import finders
 
 #Chapter 5
-from rango.models import Category
+from rango.models import Page, Category
+import populate_rango
 import rango.tests.test_utils as test_utils
 
 #Chapter 6
+from rango.decorators import chapter6
 
 #Chapter 7
 from rango.decorators import chapter7

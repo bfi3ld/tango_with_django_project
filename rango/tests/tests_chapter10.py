@@ -1,24 +1,27 @@
 # Chapter 3
 from django.test import TestCase
+from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 from django.core.urlresolvers import reverse
 
 #Chapter 4
+from django.contrib.staticfiles import finders
 
 #Chapter 5
+from rango.models import Page, Category
 
 #Chapter 6
 from rango.decorators import chapter6
 
 #Chapter 7
+from rango.decorators import chapter7
 
 #Chapter 8
-from django.conf import settings
 from rango.decorators import chapter8
 import os.path
 
 #Chapter 9
-from rango.forms import UserForm, UserProfileForm
-from django.core.files.storage import default_storage
+from rango.models import User, UserProfile
+from rango.decorators import chapter9
 
 #Chapter 10
 from datetime import datetime, timedelta

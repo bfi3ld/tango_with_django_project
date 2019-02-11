@@ -3,10 +3,9 @@ from django.test import TestCase
 from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 from selenium import webdriver
 from django.core.urlresolvers import reverse
-import os, socket
+import socket
 
 #Chapter 4
-from django.contrib.staticfiles import finders
 
 #Chapter 5
 from rango.models import Page, Category
