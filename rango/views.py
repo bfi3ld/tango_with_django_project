@@ -222,4 +222,6 @@ def restricted(request):
 def user_logout(request):
     logout(request)
 
-    return HttpResponseRedirect(reverse('rango:index'))
+    return HttpResponseRedirect(reverse('index')) \
+
+ #rango:
